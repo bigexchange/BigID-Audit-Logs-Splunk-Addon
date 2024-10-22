@@ -1,0 +1,94 @@
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_logs_input%3ATest%60%60splunk_cred_sep%60%601%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104684.681776000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_logs_input%3ATest%60%60splunk_cred_sep%60%602%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104684.697673000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_logs_input%3ATest%60%60splunk_cred_sep%60%603%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104684.713660000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_logs_input%3ATest%60%60splunk_cred_sep%60%604%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104684.728463000
+
+[inputs/bigid_audit_logs_input%3A%2F%2FTest]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104685.170599000
+
+[collections/TA_bigid_audit_logs_checkpointer]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729104688.141683000
+
+[props/source%3A%3A...ta-bigid-audit-logs%2A.log%2A]
+owner = admin
+version = 9.3.1
+modtime = 1729284268.585299000
+
+[props/source%3A%3A...ta_bigid_audit_logs%2A.log%2A]
+owner = admin
+version = 9.3.1
+modtime = 1729284268.891727000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3Atest%60%60splunk_cred_sep%60%601%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729524638.752033000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3Atest%60%60splunk_cred_sep%60%602%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729524638.773352000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3Atest%60%60splunk_cred_sep%60%603%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729524638.798290000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3Atest%60%60splunk_cred_sep%60%604%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729524638.822848000
+
+[inputs/bigid_audit_input%3A%2F%2Ftest]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729524640.444105000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3ATest%60%60splunk_cred_sep%60%601%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729532255.127867000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3ATest%60%60splunk_cred_sep%60%602%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729532255.146278000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3ATest%60%60splunk_cred_sep%60%603%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729532255.165501000
+
+[passwords/credential%3A__REST_CREDENTIAL__%23TA-bigid-audit-logs%23data%2Finputs%2Fbigid_audit_input%3ATest%60%60splunk_cred_sep%60%604%3A]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729532255.188524000
+
+[inputs/bigid_audit_input%3A%2F%2FTest]
+owner = splunk-system-user
+version = 9.3.1
+modtime = 1729532255.638490000
+
+[props/bigid%3Aaudit%3Alogs]
+owner = admin
+version = 9.3.1
+modtime = 1729533995.275303000
