@@ -44,7 +44,7 @@ def collect_events(helper, ew):
                     break
             helper.log_info(f'Checkpoint engine report: {str(index_to_start + 1)}/{total_audit_dumps}.')
         
-        if index_to_start != total_audit_dumps:
+        if index_to_start + 1 != total_audit_dumps:
             new_audit_logs = audit_dumps[index_to_start + 1:]
             for line in new_audit_logs:
                 event = helper.new_event(data=line, sourcetype="bigid:audit:logs", source=helper.get_input_stanza_names(), done=True, unbroken=True)
