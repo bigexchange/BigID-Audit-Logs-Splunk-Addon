@@ -29,7 +29,7 @@ def collect_events(helper, ew):
         
         
         # Retrieve checkpoint 
-        checkpoint = helper.get_check_point('last_line_ingested')
+        checkpoint = helper.get_check_point(f'{base_url}_last_line_ingested')
         
         index_to_start = -1
         if checkpoint is None:
@@ -52,7 +52,7 @@ def collect_events(helper, ew):
             helper.log_info('New audit logs ingested successfully')
             
             # Write checkpoint 
-            helper.save_check_point('last_line_ingested', get_hexdigest_from_string(new_audit_logs[-1]))
+            helper.save_check_point(f'{base_url}_last_line_ingested', get_hexdigest_from_string(new_audit_logs[-1]))
             helper.log_info('Checkpoint saved successfully')
         else:
             helper.log_info('All audit logs available have already been ingested')
