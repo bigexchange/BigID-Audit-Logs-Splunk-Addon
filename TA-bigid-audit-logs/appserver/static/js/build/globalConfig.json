@@ -2,7 +2,7 @@
     "meta": {
         "name": "TA-bigid-audit-logs",
         "displayName": "BigID Audit logs",
-        "version": "1.0.0",
+        "version": "1.2.0",
         "restRoot": "TA_bigid_audit_logs",
         "_uccVersion": "5.39.0",
         "schemaVersion": "0.0.3"
