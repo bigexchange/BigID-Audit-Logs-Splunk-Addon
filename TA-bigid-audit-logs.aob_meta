@@ -1,0 +1,158 @@
+{
+   "basic_builder":{
+      "appname":"TA-bigid-audit-logs",
+      "friendly_name":"BigID Audit logs",
+      "version":"1.2.0",
+      "author":"BigID Services",
+      "description":"This add-on takes audit logs from your BigID instance and ingest them into splunk.",
+      "theme":"#000000",
+      "large_icon":"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",
+      "small_icon":"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",
+      "visible":false,
+      "tab_version":"4.3.0",
+      "tab_build_no":"0",
+      "build_no":4
+   },
+   "data_input_builder":{
+      "datainputs":[
+         {
+            "index":"default",
+            "sourcetype":"bigid:audit:logs",
+            "interval":"60",
+            "use_external_validation":true,
+            "streaming_mode_xml":true,
+            "name":"bigid_audit_input",
+            "title":"BigID Audit Input",
+            "description":"",
+            "type":"customized",
+            "parameters":[
+               {
+                  "name":"bigid_base_url",
+                  "label":"BigID Base Url",
+                  "help_string":"E.g. https://sandbox.bigid.tools",
+                  "required":true,
+                  "format_type":"text",
+                  "default_value":"",
+                  "placeholder":"",
+                  "type":"text",
+                  "value":"https://sandbox.bigiddemo.com"
+               },
+               {
+                  "name":"token_name",
+                  "label":"Token Name",
+                  "help_string":"The name of the token generated in BigID",
+                  "required":true,
+                  "format_type":"text",
+                  "default_value":"",
+                  "placeholder":"",
+                  "type":"text",
+                  "value":"67c5a243-a948-4c28-8702-befd6a713ea6"
+               },
+               {
+                  "name":"auth_token",
+                  "label":"Authorization Token",
+                  "help_string":"The value of the token generated in BigID",
+                  "required":true,
+                  "format_type":"password",
+                  "default_value":"",
+                  "placeholder":"",
+                  "type":"password",
+                  "value":""
+               }
+            ],
+            "data_inputs_options":[
+               {
+                  "type":"customized_var",
+                  "name":"bigid_base_url",
+                  "title":"BigID Base Url",
+                  "description":"E.g. https://sandbox.bigid.tools",
+                  "required_on_edit":false,
+                  "required_on_create":true,
+                  "format_type":"text",
+                  "default_value":"",
+                  "placeholder":""
+               },
+               {
+                  "type":"customized_var",
+                  "name":"token_name",
+                  "title":"Token Name",
+                  "description":"The name of the token generated in BigID",
+                  "required_on_edit":false,
+                  "required_on_create":true,
+                  "format_type":"text",
+                  "default_value":"",
+                  "placeholder":""
+               },
+               {
+                  "type":"customized_var",
+                  "name":"auth_token",
+                  "title":"Authorization Token",
+                  "description":"The value of the token generated in BigID",
+                  "required_on_edit":false,
+                  "required_on_create":true,
+                  "format_type":"password",
+                  "default_value":"",
+                  "placeholder":""
+               }
+            ],
+            "code":"\n# encoding = utf-8\n\nimport sys\nimport hashlib\n\ndef validate_input(helper, definition):\n    pass\n\ndef collect_events(helper, ew):\n    base_url = helper.get_arg('bigid_base_url')\n    token_name = helper.get_arg('token_name')\n    auth_token = helper.get_arg('auth_token')\n\n    helper.log_info(f'Collecting BigID Audit Logs from: {str(base_url)}')\n    \n    try:\n        helper.log_info(f'Refreshing token on {base_url} with token (secret) length: {str(len(auth_token))}')\n        r_rt = refresh_token(helper, base_url, auth_token)\n        helper.log_info('Token refreshed. Now retrieving audit logs...')\n        \n        r_al = get_audit_logs(helper, base_url, r_rt)\n        helper.log_info('Audit logs successfully retrieved.')\n        \n        audit_dumps = r_al.text.splitlines()\n        total_audit_dumps = len(audit_dumps)\n        \n        helper.log_info(f'Audit logs retrieved. A total of {str(total_audit_dumps)} lines. Now working on checkpoint matching...')\n        \n        \n        # Retrieve checkpoint \n        checkpoint = helper.get_check_point('last_line_ingested')\n        \n        index_to_start = -1\n        if checkpoint is None:\n            helper.log_info('Checkpoint is empty. All audit logs will be indexed.')\n        else:\n            helper.log_info('Checkpoint is not empty. Starting with new events only. Searching audit dumps for a checkpoint match...')\n            for ad in audit_dumps:\n                index_to_start = index_to_start + 1\n                ad_line_hash = get_hexdigest_from_string(ad)\n                if checkpoint == ad_line_hash: \n                    helper.log_info(f'Checkpoint found. Starting at line: {str(index_to_start)}.')\n                    break\n            helper.log_info(f'Checkpoint engine report: {str(index_to_start + 1)}/{total_audit_dumps}.')\n        \n        if index_to_start != total_audit_dumps:\n            new_audit_logs = audit_dumps[index_to_start + 1:]\n            for line in new_audit_logs:\n                event = helper.new_event(data=line, sourcetype=\"bigid:audit:logs\", source=helper.get_input_stanza_names(), done=True, unbroken=True)\n                ew.write_event(event)\n            helper.log_info('New audit logs ingested successfully')\n            \n            # Write checkpoint \n            helper.save_check_point('last_line_ingested', get_hexdigest_from_string(new_audit_logs[-1]))\n            helper.log_info('Checkpoint saved successfully')\n        else:\n            helper.log_info('All audit logs available have already been ingested')\n            \n    except Exception as e:\n        helper.log_error(f'Error streaming events: {str(e)}')\n    \ndef refresh_token(helper, _base_url, _auth_token):\n    base_url = _base_url + '/api/v1'\n    endpoint_refresh = '/refresh-access-token'\n    url = base_url + endpoint_refresh\n    \n    headers = {\n        'Authorization': _auth_token,\n        'Content-Type': 'application/json'\n    }\n    \n    r = helper.send_http_request(url, 'GET', parameters=None, payload=None, headers=headers, cookies=None, verify=True, cert=None, timeout=None, use_proxy=True)\n    \n    try:\n        if r.status_code != 200:\n            helper.log_error(f'Unsuccessful HTTP request for BigID Refresh Token endpoint. status_code={str(r.status_code)}')\n            sys.exit(1)\n        \n        return r.json()[\"systemToken\"]\n    except Exception as e:\n        helper.log_error(f'Error getting audit logs: {str(e)}')\n        sys.exit(1)\n\ndef get_audit_logs(helper, _base_url, _auth_token):\n    \n    base_url = _base_url + '/api/v1'\n    endpoint_auditlogs = '/audit-log'\n    url = base_url + endpoint_auditlogs\n    \n    headers = {\n        'Authorization': _auth_token,\n        'Content-Type': 'application/json'\n    }\n    \n    try:\n        r = helper.send_http_request(url, 'GET', parameters=None, payload=None, headers=headers, cookies=None, verify=True, cert=None, timeout=None, use_proxy=True)\n    \n        if r.status_code != 200:\n            helper.log_error(f'Unsuccessful HTTP request for BigID Audit Log endpoint. status_code={str(r.status_code)}')\n            sys.exit(1)\n            \n        return r\n    \n    except Exception as e:\n        helper.log_error(f'Error getting audit logs: {str(e)}')\n        sys.exit(1)\n\ndef get_hexdigest_from_string(line):\n    line_hash = hashlib.sha256(line.strip().encode())\n    return line_hash.hexdigest()\n",
+            "customized_options":[
+               {
+                  "name":"bigid_base_url",
+                  "value":"https://sandbox.bigiddemo.com"
+               },
+               {
+                  "name":"token_name",
+                  "value":"67c5a243-a948-4c28-8702-befd6a713ea6"
+               }
+            ],
+            "uuid":"dd261202b4ab4794a0c5b4bfe38f0c32",
+            "sample_count":"2"
+         }
+      ]
+   },
+   "field_extraction_builder":{
+      "bigid:audit:logs":{
+         "data_format":"unstructured_data",
+         "table_results":{
+            "delim":" "
+         },
+         "is_parsed":true,
+         "regex_results":{
+            "status":{
+               "finished":true,
+               "progress":1.0
+            },
+	  "groups": []
+	 }
+      }
+   },
+   "global_settings_builder":{
+      "global_settings":{
+         "log_settings":{
+            
+         }
+      }
+   },
+   "sourcetype_builder":{
+      "bigid:audit:logs":{
+         "metadata":{
+            "event_count":0,
+            "data_input_name":"bigid_audit_input",
+            "extractions_count":0,
+            "cims_count":0
+         }
+      }
+   },
+   "validation":{
+      "validators":[
+         "best_practice_validation",
+         "data_model_mapping_validation",
+         "field_extract_validation",
+         "app_cert_validation"
+      ],
+      "status":"job_finished",
+      "validation_id":"v_1729534752_34",
+      "progress":1.0
+   }
+}
