@@ -8,7 +8,7 @@ def validate_input(helper, definition):
     pass
 
 def collect_events(helper, ew):
-    base_url = helper.get_arg('bigid_base_url')
+    base_url = getHttpsBaseUrl(helper)
     token_name = helper.get_arg('token_name')
     auth_token = helper.get_arg('auth_token')
 
@@ -59,6 +59,17 @@ def collect_events(helper, ew):
             
     except Exception as e:
         helper.log_error(f'Error streaming events: {str(e)}')
+
+def getHttpsBaseUrl(helper):
+    if not helper.get_arg('bigid_base_url').lower().startswith('https://'):
+        if helper.get_arg('bigid_base_url').lower().startswith('http://'):
+            _base_url = helper.get_arg('bigid_base_url').replace('http://', 'https://', 1)
+            helper.log_warning('Base URL modified to use HTTPS.')
+            return _base_url
+        else:
+            helper.log_error('Insecure base URL provided. HTTPS is required.')
+            sys.exit(1)
+    return helper.get_arg('bigid_base_url')
     
 def refresh_token(helper, _base_url, _auth_token):
     base_url = _base_url + '/api/v1'
